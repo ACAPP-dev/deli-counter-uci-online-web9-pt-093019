@@ -27,4 +27,5 @@ def now_serving(array)
 end
 
 #line(%w(Suzy Sue Mabel))
-line(katz_deli)
+#line(katz_deli)
+take_a_number(katz_deli, "Sue")
