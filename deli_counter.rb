@@ -35,4 +35,4 @@ end
 #line(%w(Suzy Sue Mabel))
 #line(katz_deli)
 #take_a_number(katz_deli, "Sue")
-now_serving(katz_deli)
+now_serving(%w(Sue Jeff Betty))
