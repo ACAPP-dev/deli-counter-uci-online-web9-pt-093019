@@ -1,4 +1,5 @@
 # Write your code here.
+require 'pry'
 katz_deli = []
 counter = 0
 string = ""
@@ -24,3 +25,5 @@ end
 def now_serving(array)
 
 end
+
+line(%w(Suzy Sue Mabel))
