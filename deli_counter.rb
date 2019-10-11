@@ -29,7 +29,7 @@ def now_serving(array)
     puts "Currently serving #{array[0]}."
     array.unshift
   end
-  
+
 end
 
 #line(%w(Suzy Sue Mabel))
