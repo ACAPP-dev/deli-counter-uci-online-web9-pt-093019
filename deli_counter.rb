@@ -13,8 +13,9 @@ def line(array)
       string << "#{counter + 1}. #{array[counter]} "
       counter += 1
     end
-  end
     puts "The line is currently: #{string}"
+  end
+    
 end
 
 def take_a_number(current_line_array, person_name)
