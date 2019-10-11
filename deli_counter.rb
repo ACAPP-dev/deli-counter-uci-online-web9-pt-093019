@@ -15,7 +15,7 @@ def line(array)
     end
     puts "The line is currently: #{string}"
   end
-    
+
 end
 
 def take_a_number(current_line_array, person_name)
