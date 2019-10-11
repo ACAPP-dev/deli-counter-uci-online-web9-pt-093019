@@ -15,11 +15,11 @@ def line(array)
     end
     puts "The line is currently: #{string}"
   end
-
 end
 
 def take_a_number(current_line_array, person_name)
-
+  current_line_array.push(person_name)
+  puts "Welcome, #{person_name}. You are #{current_line_array.index(person_name) + 1} in line."
 end
 
 def now_serving(array)
