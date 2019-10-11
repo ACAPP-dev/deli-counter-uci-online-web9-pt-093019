@@ -7,12 +7,12 @@ def line(array)
   if array.size == 0
     puts "The line is currently empty."
   else
-  
+
     while counter < array.size do
       string << "#{counter + 1}.#{array[counter]}"
       counter += 1
     end
-    
+
     end
     puts "The line is currently: #{string}"
 end
@@ -24,4 +24,3 @@ end
 def now_serving(array)
 
 end
-
