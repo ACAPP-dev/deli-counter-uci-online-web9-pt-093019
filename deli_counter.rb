@@ -13,7 +13,7 @@ def line(array)
       string << " #{counter + 1}. #{array[counter]}"
       counter += 1
     end
-    puts "The line is currently: #{string}"
+    puts "The line is currently:#{string}"
   end
 end
 
