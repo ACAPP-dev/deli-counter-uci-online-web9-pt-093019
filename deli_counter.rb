@@ -23,7 +23,13 @@ def take_a_number(current_line_array, person_name)
 end
 
 def now_serving(array)
-
+  if array.size == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{array[0]}."
+    array.unshift
+  end
+  
 end
 
 #line(%w(Suzy Sue Mabel))
