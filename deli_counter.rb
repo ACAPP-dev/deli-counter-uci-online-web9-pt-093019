@@ -11,7 +11,7 @@ def line(array)
   else
 
     while counter < array.size do
-      string << "#{counter + 1}.#{array[counter]}"
+      string << "#{counter + 1}. #{array[counter]} "
       counter += 1
     end
 
